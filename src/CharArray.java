@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class CharArray {
-    public char[] StackArray;
+    public char[] StackArray1;
     public int top;
     public int capacity;
 
     public  CharArray(int size){
         top=-1;
         capacity=size;
-        StackArray=new char[capacity];
+        StackArray1=new char[capacity];
     }
     public boolean isFull(){
         return top==capacity-1;
@@ -26,13 +26,13 @@ public class CharArray {
         if(isEmpty()){
             System.out.println("Stack is empty");
         }
-        return StackArray[top--];
+        return StackArray1[top--];
     }
     public char peek(){
         if(isEmpty()){
             System.out.println("Stack is empty");
         }
-        return StackArray[top];
+        return StackArray1[top];
     }
 
 
