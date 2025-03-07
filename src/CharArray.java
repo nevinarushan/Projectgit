@@ -20,7 +20,7 @@ public class CharArray {
         if(isFull()){
             System.out.println("Stack is full");
         }
-        StackArray[++top]=value;
+        StackArray1[++top]=value;
     }
     public char pop(){
         if(isEmpty()){
